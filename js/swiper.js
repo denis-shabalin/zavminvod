@@ -6,10 +6,10 @@ const swiper = new Swiper('.swiper', {
 	speed: 600,
 	grabCursor: true,
 	centerSlides: true,
-	/* autoplay: {
+	autoplay: {
 		delay: 2500,
 		disableOnInteraction: false,
-	}, */
+	},
 	keyboard: {
 		enabled: true,
 	},
@@ -35,7 +35,7 @@ const aboutSwiper = new Swiper('.about-swiper', {
 	grabCursor: true,
 	loopedSlides: 4,
 	autoplay: {
-		delay: 3000,
+		delay: 2500,
 		disableOnInteraction: false,
 	},
 	keyboard: {
